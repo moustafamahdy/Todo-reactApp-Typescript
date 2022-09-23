@@ -4,7 +4,7 @@ import { AddTodoForm } from "./components/AddTodoForm";
 import { DeleteAllBtn } from "./components/DeleteAllBtn";
 import { TodoFilter } from "./components/TodoFilter";
 import { TodoList } from "./components/TodoList";
-import { TodoTitle } from "./components/TodoTitle";
+import { TodoTitle } from "../../components/TodoTitle";
 
 const initialTodos: Array<Todo> = [
   { text: "walk the dog", complete: true },
